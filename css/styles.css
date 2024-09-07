@@ -24,3 +24,9 @@ html {
   padding: 25px 35px;
   text-align: center;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
