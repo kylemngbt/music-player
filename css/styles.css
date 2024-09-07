@@ -56,6 +56,7 @@ nav .circle {
 }
 
 .music-player p {
+  margin-top: 5px;
   font-size: 14px;
   color: #333;
 }
