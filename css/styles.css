@@ -13,3 +13,10 @@ html {
   height: 100vh;
   background: #333;
 }
+
+.music-player {
+  background: #ffe0e5;
+  width: 400px;
+  padding: 25px 35px;
+  text-align: center;
+}
