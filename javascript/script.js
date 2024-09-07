@@ -16,3 +16,8 @@ function playPause() {
 }
 
 playPauseBtn.addEventListener("click", playPause);
+
+song.onloadedmetadata = function() {
+  progress.max = song.duration;
+  progress.value = song.currentTime;
+}
