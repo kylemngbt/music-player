@@ -21,3 +21,9 @@ song.onloadedmetadata = function() {
   progress.max = song.duration;
   progress.value = song.currentTime;
 }
+
+if (song.play()) {
+  setInterval(() => {
+    progress.value = song.currentTime;
+  },500)
+}
